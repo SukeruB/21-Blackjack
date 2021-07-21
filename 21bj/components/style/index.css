@@ -1,0 +1,28 @@
+.header{
+    align-items: center;
+}
+
+.header-Div{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.section{
+    align-items: center;
+}
+
+.section-div{
+    text-align: center;
+}
+
+.section-div-button{
+    border: 3px solid gray;
+    border-radius: 50px;
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+
+.section2-div2-button{
+    visibility: hidden;
+}
