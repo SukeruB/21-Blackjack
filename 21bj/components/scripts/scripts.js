@@ -33,7 +33,7 @@ function secondC(){
     sum = sum + number3
 }
 function thirdC(){
-    let thirdCard = number3;
+    let thirdCard = number3;    
     document.getElementById("fdc").innerHTML = "Tu tercer carta es: " + number3 ;
     sum = sum + number3
 }

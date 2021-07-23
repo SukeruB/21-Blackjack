@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina 1</title>
-    <script src="./components/scripts/scripts.js"></script>
     <link rel="stylesheet" href="./components/style/index.css">
 </head>
 <body>
@@ -17,24 +16,31 @@
     <section class="section">
         <div class="section-div">
             <h3>Presiona el boton para iniciar el juego</h3>
-            <button class= "section-div-button" onclick="startg()">Presiona aqui para obtener tus cartas</button>
+            <button class= "section-div-button" id="Start" type="button">Presiona aqui para obtener una carta</button>
         </div>
     </section>
     <section>
-        <div>
-            <p id="fc"> </p>
-            <p id="sc">  </p>
-            <p id="tc">   </p>
-            <p id="fdc"> </p>
-            <p id="f"></p>
+        <div class="section2-div" id="sc">
+            <p id="fc" class="section2-div-p"> </p>
+            <p id="scc" class="section2-div-p"></p>
+            <p id="tc" class="section2-div-p" style="visibility: hiden;"></p>
+            <p id="fcc" class="section2-div-p" style="visibility: hidden;"></p>
+            <p id="cs" class="section2-div-p" style="visibility: hidden;"></p>
+            <p id="csd" class="section2-div-p" style="visibility: hidden;"></p>
         </div>
-        <div>
+        <div id="rac" class="section2-div2">
             <h2 id="ac"></h2>
-        </div>
-        <div>
-            <button class="section2-div2-button" type="button" id="mc" onclick="secondC()">Si</button>
+            <button class="section2-div2-button" type="button" id="mc">Si</button>
             <button class="section2-div2-button" type="button" id="mcn">No</button>
         </div>
     </section>
+    <section>
+        <div class="section3-div">
+            <h1 class="section3-div-h1"id="egs">Has perdido</h1>
+            <h1 class="section3-div-h2" id="eggs">Has ganado</h1>
+            <h1 id="eg"></h1>
+        </div>
+    </section>
 </body>
+<script src="./components/scripts/21b.js"></script>
 </html>
